@@ -5,7 +5,3 @@ node_js:
 cache:
  directories:
  - node_modules # NPM packages
-jobs:
-  include:
-    - stage: install
-      script: npm install
