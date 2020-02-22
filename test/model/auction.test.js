@@ -14,7 +14,7 @@ describe("Bid", () => {
       chai
         .expect(bid.players)
         .to.be.an("array")
-        .to.eql([{ name: "G" }, { name: "A" }]);
+        .to.eql([{ name: "C" }, { name: "A" }]);
     });
   });
 
